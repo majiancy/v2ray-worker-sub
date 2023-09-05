@@ -2183,7 +2183,7 @@ var src_default = {
       return fetch(new Request(newUrl, request));
     } else {
       return new Response(`<!DOCTYPE html>
-<body dir="rtl">
+<body>
   <h3><font color="green">部署成功啦</font></h3>
   <p />
   <p>
